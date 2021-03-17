@@ -19,7 +19,8 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
             </button>
             <a className="navbar-brand page-scroll" href="#page-top">
-twisty tick            </a>{" "}
+landing page
+         </a>{" "}
           </div>
 
           <div
