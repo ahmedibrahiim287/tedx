@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import logo from "../"
+import logo from "../logo.png";
 
 export class Navigation extends Component {
   render() {
     return (
-      <nav id="menu" className="navbar navbar-default navbar-fixed-top navbar-dark">
+      <nav id="menu" className="navbar navbar-default navbar-fixed-top navbar-dark " >
         <div className="container">
          
         <div className="navbar-header naaz">
@@ -21,8 +21,10 @@ export class Navigation extends Component {
           <span className="icon-bar"></span>{" "}
         </button>
         <a className="navbar-brand page-scroll" href="#page-top">
-        qsdasd
-      </a>{" "}
+
+        <img className="Logo" src={logo}  alt="Logo"/>
+        
+        </a>{" "}
       </div>
           <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
            
