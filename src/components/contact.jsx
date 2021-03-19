@@ -4,6 +4,14 @@ export class Contact extends Component {
   render() {
     return (
       <div>
+    {/*
+    
+    
+    
+    
+    
+    
+
         <div id="contact">
           <div className="container">
             <div className="col-md-8">
@@ -114,14 +122,36 @@ export class Contact extends Component {
             </div>
           </div>
         </div>
+
+
+    */}
+    
         <div id="footer">
-          <div className="container text-center">
+          <div className="container-fluid text-center ">
             <p>
-              &copy; 2020 Issaaf Kattan React Land Page Template. Design by{" "}
-              <a href="http://www.templatewire.com" rel="nofollow">
-                TemplateWire
-              </a>
+              &copy;2021 TEDxHelwanUniversity. This independent TEDx event is operated under license from TED.{" "}
             </p>
+            <div className="social-fot">
+            <ul className="displayi">
+              <li>
+                <a
+                  href={this.props.data ? this.props.data.facebook : "/"}
+                >
+                  <i className="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href={this.props.data ? this.props.data.instagram : "/"}>
+                  <i className="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href={this.props.data ? this.props.data.twitter : "/"}>
+                  <i className="fab fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
           </div>
         </div>
       </div>
